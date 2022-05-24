@@ -1,3 +1,4 @@
+
 /* Start Navbar */
 
 .navbar {
@@ -78,3 +79,15 @@
     }
     
 /* End Contact Me */
+
+/* Start Footer */
+.footer {background-color: black;
+text-align: center;
+color: white;
+list-style: nones;}
+
+.footer ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
