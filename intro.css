@@ -1,3 +1,15 @@
+/* Start Header */
+.header{
+    padding-top:150px;
+    color: black;
+    text-align:center;
+    display:inline-block;
+    font-size:50px;
+    padding: 0px 5px;
+    color:black
+}
+
+/* End Header */
 
 /* Start Navbar */
 
@@ -26,32 +38,75 @@
 
 /* End Navbar */
 
+/* Start About Me */
+
+.Inro-About{
+    min-height:457px;
+    background-color:#F2F2F2;
+    width: 50%;
+    float: left;
+    width: 45%;
+    margin-bottom:-5px
+}
+
+.about-me .image {
+    float: left;
+    width: 45%;
+}
+.about-me .info {
+    width: 50%;
+    overflow:hidden
+}
+
+.about-me .info h2 {margin-bottom:-5px}
+
+.about-me .info .hobbies .content {
+    width: 50%
+}
+
+.about-me .info .hobbies .content .icon {
+    width:14%;
+    margin-right:5%;
+    margin-top:30px;
+}
+
+.about-me .info .hobbies .content img {
+    max-width: 100%
+}
+
+.about-me .info .hobbies .content .text  {width:80%}
+
+.about-me .info .hobbies .content .text h3 {margin-bottom: 0}
+
+.about-me .info .hobbies .content .text p {margin-top:6px}
+
+/* End About Me */
+
 /* Start Contact Me */
 
 .contact-me .info {width:50%}
 
-.contact-me .info {color:white;margin-left:40px}
+.contact-me .info {color:black;margin-left:40px}
 
 .contact-me .info  {margin-left:40px}
 
 .contact-me .info {margin-top:-13px}
 
-.contact-me {background-color:black;
+.contact-me {
     overflow:hidden;
     padding-top:50px;
     padding-bottom:50px;
     color: white;
     }
     .contact-me .form label {
-        color:white;
+        color:black;
         display:block;
         margin-top:18px;
         margin-bottom:13px;
     }
     
     .contact-me .form input[type="text"] {
-        background-color: black;
-        color:#FFF;
+        color:black;
         height: 40px;
         width: 80%;
         border:0;
@@ -62,7 +117,7 @@
         height:300px;
         width:80%;
         background-color:#455557;
-        color:#FFF;
+        color:black;
         border:0;
         font-size:18px
     }
@@ -70,7 +125,7 @@
     .contact-me .form input[type="submit"] {
         background-color: #191E22;
         display:block;
-        color:#FFF;
+        color:black;
         height: 40px;
         border:0;
         margin-top:30px;
@@ -81,10 +136,10 @@
 /* End Contact Me */
 
 /* Start Footer */
-.footer {background-color: black;
+.footer {
 text-align: center;
-color: white;
-list-style: nones;}
+color: black;
+list-style: none;}
 
 .footer ul li {
     display: inline-block;
